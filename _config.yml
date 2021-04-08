@@ -1,30 +1,30 @@
-title: Stackbit Fjord Theme
+title: LArbuckle - Developer
 baseurl: /
 permalink: '/:title/'
 collections:
   posts:
     permalink: '/posts/:title/'
 palette: yellow
-header:
+header: https://i.ibb.co/55qwH0H/Final-Frontier-Space-Age-Illustration-by-Andy-Potts-Art-Print.jpg
   title: Liam Arbuckle
   tagline: >-
     Full stack engineer at Signal Kinetics making science accessible through
     gaming
   logo_img_alt: Fjord Logo
-  background_img: images/header-bg.jpg
+  background_img: 
   has_nav: true
   nav_links:
     - label: Home
       url: /
       style: link
     - label: About
-      url: /about
+      url: http://dev.to/gizmotronn
       style: link
-    - label: Style Guide
-      url: /style-guide
+    - label: Signal-K
+      url: http://app.skinetics.tech
       style: link
-    - label: Contact
-      url: /contact
+    - label: Portfolio
+      url: http://l.skinetics.tech
       style: link
   has_social: true
   social_links:
@@ -45,11 +45,7 @@ header:
       new_window: true
 footer:
   content: >-
-    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
-    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Create yours <a
-    href="https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer"
-    target="_blank" rel="noopener">now</a>
+    
   links:
     - label: Generated from DEV
       url: 'https://dev.to/connecting-with-stackbit'
