@@ -1,0 +1,76 @@
+title: Stackbit Fjord Theme
+baseurl: /
+permalink: '/:title/'
+collections:
+  posts:
+    permalink: '/posts/:title/'
+palette: yellow
+header:
+  title: Liam Arbuckle
+  tagline: >-
+    Full stack engineer at Signal Kinetics making science accessible through
+    gaming
+  logo_img_alt: Fjord Logo
+  background_img: images/header-bg.jpg
+  has_nav: true
+  nav_links:
+    - label: Home
+      url: /
+      style: link
+    - label: About
+      url: /about
+      style: link
+    - label: Style Guide
+      url: /style-guide
+      style: link
+    - label: Contact
+      url: /contact
+      style: link
+  has_social: true
+  social_links:
+    - label: Twitter
+      url: 'https://twitter.com/OpusTheRobot'
+      style: icon
+      icon_class: twitter
+      new_window: true
+    - label: GitHub
+      url: 'https://github.com/Gizmotronn'
+      style: icon
+      icon_class: github
+      new_window: true
+    - label: DEV
+      url: 'https://dev.to/gizmotronn'
+      style: icon
+      icon_class: dev
+      new_window: true
+footer:
+  content: >-
+    &copy; Stackbit. All rights reserved. This Jamstack site was created with <a
+    href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
+    rel="noopener">Stackbit</a>. Create yours <a
+    href="https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer"
+    target="_blank" rel="noopener">now</a>
+  links:
+    - label: Generated from DEV
+      url: 'https://dev.to/connecting-with-stackbit'
+      new_window: true
+      style: link
+sass:
+  indentWidth: 4
+  style: nested
+  precision: 10
+plugins:
+  - jekyll-menus
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - README.md
+  - netlify.toml
+  - stackbit-build.sh
+  - stackbit-pull.js
