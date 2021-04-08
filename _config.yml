@@ -5,13 +5,13 @@ collections:
   posts:
     permalink: '/posts/:title/'
 palette: yellow
-header: https://i.ibb.co/55qwH0H/Final-Frontier-Space-Age-Illustration-by-Andy-Potts-Art-Print.jpg
+header: 
   title: Liam Arbuckle
   tagline: >-
     Full stack engineer at Signal Kinetics making science accessible through
     gaming
   logo_img_alt: Fjord Logo
-  background_img: 
+  background_img: https://i.ibb.co/55qwH0H/Final-Frontier-Space-Age-Illustration-by-Andy-Potts-Art-Print.jpg
   has_nav: true
   nav_links:
     - label: Home
